@@ -1,0 +1,41 @@
+{
+  "name": "storybook-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getstorybook": "getstorybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchaser53/storybook-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchaser53/storybook-playground/issues"
+  },
+  "homepage": "https://github.com/rchaser53/storybook-playground#readme",
+  "dependencies": {
+    "material-ui": "^0.19.4",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  },
+  "devDependencies": {
+    "@storybook/cli": "^3.2.15",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "ts-loader": "^3.1.1",
+    "tslint": "^5.8.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1",
+    "@storybook/react": "^3.2.15",
+    "@storybook/addon-actions": "^3.2.15",
+    "@storybook/addon-links": "^3.2.15"
+  }
+}
